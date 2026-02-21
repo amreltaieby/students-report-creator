@@ -1,0 +1,31 @@
+print("this program will help you analyze student grades.it will calculate student averages and class average.")
+
+numberofstudents = int(input("\nhow many students do you have : "))
+numberofsubjects = int(input("\nhow many subjects : "))
+print("")
+
+subjects = [""] * numberofsubjects
+students = [""] * numberofstudents
+
+for i in range(numberofsubjects):
+    subjects[i] = input("subject : ")
+
+print("----------------------------------------------------------")
+print("\nplease enter student names")
+
+for i in range(numberofstudents):
+    students[i] = input("student name : ")
+
+# create 2D grades list
+grades = [[0]*numberofsubjects for _ in range(numberofstudents)]
+
+for s in range(numberofstudents):
+    print(students[s])
+    for sub in range(numberofsubjects):
+        grades[s][sub] = float(input("student grade in subject " + subjects[sub] + ": "))
+    print("--------")
+
+for s in range(numberofstudents):
+    print("\nstudent name:", students[s])
+    for sub in range(numberofsubjects):
+        print("his grade in", subjects[sub], ":", grades[s][sub])
