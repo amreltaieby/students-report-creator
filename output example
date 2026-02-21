@@ -1,0 +1,78 @@
+this program will help you analyze student grades.it will calculate student averages and class average.
+
+how many students do you have : 5
+
+how many subjects : 4
+
+subject : physics
+subject : math
+subject : science
+subject : computer 
+----------------------------------------------------------
+
+please enter student names
+student name : james
+student name : nick
+student name : tim
+student name : kevin
+student name : sarah
+james
+student grade in subject physics: 99
+student grade in subject math: 100
+student grade in subject science: 96
+student grade in subject computer : 93
+--------
+nick
+student grade in subject physics: 85
+student grade in subject math: 80
+student grade in subject science: 70
+student grade in subject computer : 60
+--------
+tim
+student grade in subject physics: 100
+student grade in subject math: 100
+student grade in subject science: 95
+student grade in subject computer : 95
+--------
+kevin
+student grade in subject physics: 100
+student grade in subject math: 78
+student grade in subject science: 56
+student grade in subject computer : 70
+--------
+sarah
+student grade in subject physics: 70
+student grade in subject math: 80
+student grade in subject science: 90
+student grade in subject computer : 100
+--------
+
+student name: james
+his grade in physics : 99.0
+his grade in math : 100.0
+his grade in science : 96.0
+his grade in computer  : 93.0
+
+student name: nick
+his grade in physics : 85.0
+his grade in math : 80.0
+his grade in science : 70.0
+his grade in computer  : 60.0
+
+student name: tim
+his grade in physics : 100.0
+his grade in math : 100.0
+his grade in science : 95.0
+his grade in computer  : 95.0
+
+student name: kevin
+his grade in physics : 100.0
+his grade in math : 78.0
+his grade in science : 56.0
+his grade in computer  : 70.0
+
+student name: sarah
+his grade in physics : 70.0
+his grade in math : 80.0
+his grade in science : 90.0
+his grade in computer  : 100.0
